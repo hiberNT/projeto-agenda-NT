@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="main.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="container">
+                <h1>Agenda de contatos</h1>
+            </div>
+        </header>
+        <section id="Agendamento">
+            <div class="container">
+                <h2>Cadastro agendamento</h2>
+                <form id="valida-form">
+                    <input type="text" id="nome" placeholder="Nome ex.:Maria Eduarda" >
+                    <input type="number" id="contato" placeholder="Telefone para contato">
+                    <button type="submit">Cadastrar</button>
+                </form>    
+            </div> 
+        </section>
+        <section id="Agendados">
+            <div class="container2">
+                <h2>Agendados</h2>
+                <table cellspacing ="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome do usuário
+                            </th>
+                            <th>
+                                Contato
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nome</td>
+                            <td>Telefone</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <p id="res" class ="sucesso-mensage"></p>
+        <footer class="rodape">
+            <p>&copy;NT.contatos</p>
+        </footer>
+    <script src="main.JS"></script>
+</body>
+</html>
